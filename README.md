@@ -1,6 +1,6 @@
 # Embedded Systems
 
-My embedded systems projects and experiments, written in C.
+My repo for my embedded endeavors and experiments, written in C.
 
 ## Hardware
 
@@ -49,4 +49,4 @@ This produces a `.uf2` firmware file in the build/ directory.
 1. Hold BOOTSEL while connecting the Pico 2 W over USB.
 2. The board appears as the `RP2350` drive.
 3. Copy the project's `.uf2` file onto the drive.
-4. The Pico automatically reboots and runs the firmware.
+4. The Pico automatically reboots and runs the firmware.# embedded
