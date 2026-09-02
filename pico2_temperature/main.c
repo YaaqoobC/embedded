@@ -20,10 +20,10 @@ int main(void) {
         // An observable heartbeat: turn on the Pico 2 W's onboard LED.
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, true);
         printf("LED on\n");
-        sleep_ms(1000);
+        sleep_ms(100);
 
         cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, false);
         printf("LED off\n");
-        sleep_ms(1000);
+        sleep_ms(100);
     }
 }
